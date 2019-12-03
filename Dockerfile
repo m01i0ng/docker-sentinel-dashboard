@@ -6,6 +6,7 @@ ENV SERVER_PORT=8080 \
   SENTINEL_SERVER_DASHBOARD=localhost:8080 \
   PROJECT_NAME=sentinel-dashboard
 
+EXPOSE ${SERVER_PORT}
 WORKDIR /opt
 
 RUN apk add --no-cache wget && \
