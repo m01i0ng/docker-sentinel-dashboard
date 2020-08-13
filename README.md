@@ -1,5 +1,5 @@
-# Sentinel Dashboard
+# Docker Sentinel Dashboard
 
 ```bash
-docker build -t hly9469/sentinel-dashboard .
+docker pull docker.pkg.github.com/m01i0ng/docker-sentinel-dashboard/sentinel-dashboard
 ```
